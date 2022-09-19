@@ -1,0 +1,120 @@
+h1,
+h2,
+h3,
+p,
+li{
+    font-family: sans-serif;
+    color: rgb(44, 11, 11);
+}
+
+
+
+h1,h2,h3{
+    color: #1098ad;
+}
+
+
+h1{
+
+    font-size: 26px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+li{
+    font-size: 20px;
+}
+
+
+#copyright{
+    font-size: 16px;
+}
+
+
+
+#author{
+    font-style: italic;
+    font-size: 19px;
+}
+
+.related-author{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related{
+    list-style:none;
+}
+
+.main-header{
+    background-color: #f7f7f7;
+}
+
+aside{
+    background-color: #f7f7f7;
+    border-bottom : 5px solid #1098ad;
+    border-top : 5px solid #1098ad;
+    
+}
+
+body{
+    background-color: rgb(223, 213, 213);
+}
+
+li:first-child{
+    color: blue;
+}
+
+li:last-child{
+    color: red;
+    font-style: italic;
+}
+
+li:nth-child(even){
+    background-color: #1098ad;
+}
+
+article header p{
+    background-color: magenta;
+}
+
+/* Will target whom have href attribute*/
+a:link{
+    color: #1098ad;
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(255, 23, 23)
+}
+
+a:hover{
+    color:orange;
+    border : 5px dotted #1098ad;
+    text-decoration: dashed;
+    background-color: black;
+}
+
+/* when we press down click button*/
+a:active{
+    background-color: red;
+}
